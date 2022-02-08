@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ajax-long-polling</title>
+
+    <link rel="stylesheet" type="text/css" href="css/jquery.cssemoticons.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <script src="https://code.jquery.com/jquery-1.11.3.js"></script>
+    <script src="js/jquery.cssemoticons.js"></script>
+    <script src="js/main.js"></script>
+</head>
+
+<body onload="CreateListeners()">
+    <div id="login-screen">
+        <div id="login-box">
+            <div id="login-box-header">Choose your nickname<br>and color:</div>
+            <div id="login-box-data-container">
+                <input id="login-box-name">
+                <input type="color" id="login-box-color">
+            </div>
+            <button id="login-box-button">LOGIN</button>
+        </div>
+    </div>
+    <div id="chat-window">
+        <div id="chat-display"></div>
+        <input id="chat-input">
+    </div>
+</body>
+
+</html>
